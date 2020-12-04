@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Formulario Login</title>
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="estilos/estilos.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     </head>
 
@@ -14,7 +14,7 @@
             <img class="icon_user" src="icon_user.png" 
             alt="El icono de Usuario">
             <p>
-            <form action="script-login.php" method="post">
+            <form action="scripts/script-login.php" method="post">
             <h5><p class="cabezera">Iniciar sesión</p></h5>
             <div class="form-group row">
             <label for="inputUser" class="col-sm-2 col-form-label"><p class="define_box" name="user">Usuario</p></label>
