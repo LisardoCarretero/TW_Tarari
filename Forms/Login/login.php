@@ -1,4 +1,3 @@
-
 <html lang="es">
 
     <head>
@@ -11,8 +10,7 @@
     <body>
         <div class="container">
         <div class="recuadro">
-            <img class="icon_user" src="icon_user.png" 
-            alt="El icono de Usuario">
+            <img class="icon_user" src="icon_user.png" alt="El icono de Usuario">
             <p>
             <form action="scripts/script-login.php" method="post">
             <h5><p class="cabezera">Iniciar sesión</p></h5>
