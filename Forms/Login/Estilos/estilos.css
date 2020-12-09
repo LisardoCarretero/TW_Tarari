@@ -1,6 +1,7 @@
 .icon_user{
+    width :150px; 
+    height :150px;
     margin-top: 3%;
-    text-align: center;
     opacity: 1;
 }
 .inputUser{
@@ -77,10 +78,20 @@ margin-right: 9%;
     left: 50%;
     right: 50%;
     bottom: 50%;
-    height: 50%;
+    height: 540px;
     margin-bottom:  50%;
     background: #CDC0D8 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 33px;
     opacity: 1;
 }
+
+
+/* Esta pal js
+    Si el login es incorrecto, modificar*/
+
+    #credenciales-incorrectas{
+        color: red;
+        text-align: center;
+    }
+    
