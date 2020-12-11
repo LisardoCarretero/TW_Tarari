@@ -1,11 +1,41 @@
-.icon_user{
-    width :150px; 
-    height :150px;
-    margin-top: 3%;
+.icon_shop{
+    width :55px; 
+    height :55px;
+    margin-left: 1.2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.1%;
+    float: top;
+    opacity: 1;
+}
+#icon_cesta{
+    float: right;
+    margin-right: 1%;
+    width :39px; 
+    height :39px;
+    margin-top: 1%;
+    opacity: 1;
+}
+#icon_user{
+    float: right;
+    width :39px; 
+    height :39px;
+    margin-top: 1%;
+    opacity: 1;
+}
+.icon_rigth{
+    width :90px; 
+    height :90px;
+    float: right;
+}
+.Cabezera{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 75px;
+    background: #434343  no-repeat padding-box;
     opacity: 1;
 }
 .footer{
-    
     top: 1908px;
     left: 0px;
     width: 1920px;
@@ -16,8 +46,17 @@
 }
 .Social_media{
     float: right;
-    
-    width :90px; 
-    height :90px;
+    margin-right: 10%;
+    margin-bottom: 15px;
+    height :207px;
+    opacity: 1;
+}
+.footer_tittle{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 124px;
+    background: #434343 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
     opacity: 1;
 }
