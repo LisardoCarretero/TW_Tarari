@@ -1,0 +1,23 @@
+.icon_user{
+    width :150px; 
+    height :150px;
+    margin-top: 3%;
+    opacity: 1;
+}
+.footer{
+    
+    top: 1908px;
+    left: 0px;
+    width: 1920px;
+    height: 303px;
+    background: #623869 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.Social_media{
+    float: right;
+    
+    width :90px; 
+    height :90px;
+    opacity: 1;
+}
