@@ -6,6 +6,7 @@
     margin-top: 1%;
     opacity: 1;
 }
+
 #icon_user{
     float: right;
     width :39px; 
@@ -48,11 +49,14 @@
 .cabezera2{
     background: #B694BC;
     height: 40px;
-    text-align: left;
+    text-align: right;
     font: bold 28px/28px Helvetica;
     letter-spacing: 0px;
     color: #000000;
     margin-top: 29px;
+}
+#text_header{
+    margin-right: 250px;
 }
 .footer{
     width: 100%;
