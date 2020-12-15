@@ -1,0 +1,120 @@
+#buscador{
+    margin-left: 50px;
+    width: 850px;
+    border-radius: 35px;
+    border: none;
+}
+#text_header{
+    margin-right: 200px;
+}
+#titulo{
+    margin-left: 9px;
+    font: 30px/30px Helvetica;
+}
+#cabezera{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    background: #434343;
+    color: white;
+    opacity: 1;
+    height: 120px;
+}
+.cabezera2{
+    background: #B694BC;
+    height: 40px;
+    text-align: right;
+    font: bold 28px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+}
+#lupa{
+    margin-top: 18px;
+    margin-left: 21px;
+    float: left;
+    width: 35px;
+    height: 35px;;
+}
+#icon_user{
+    float: right;
+    width :39px; 
+    height :39px;
+    margin-top: 10px;
+    margin-left: 15px;
+    opacity: 1;
+}
+#photo_local{
+    margin-top: 30px;
+    width :75%; 
+    height :70%;
+}
+
+.icon_shop{
+    width :100px; 
+    height :100px;
+    margin-left: 1.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.1%;
+    float: top;
+    opacity: 1;
+}
+#icon_cesta{
+    float: right;
+    margin-right: 0;
+    width :39px; 
+    height :39px;
+    margin-top: 1%;
+    margin-left: 400px;
+    opacity: 1;
+}
+#searcher{
+    float: center;
+    margin-left: 3%;
+    
+    width: 50%;
+    height: 71px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 35px;
+    opacity: 1; 
+}
+#arrow{
+    width :55px; 
+    height :55px;
+    margin-right: 3.5%;
+}
+.Imagen_central{
+    float: center;
+    text-align: center;
+    margin-left: 19px;
+}
+.arrow_rigth{
+    width :55px; 
+    height :55px;
+    margin-left: 3.5%;
+}
+.buttons2{
+    background: transparent;
+    border: none;
+}
+.footer{
+   
+    height: 250px;
+    background: #623869;
+  
+}
+.Social_media{
+    float: right;
+    margin-right: 3%;
+    height :207px;
+    opacity: 1;
+}
+.footer_tittle{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 124px;
+    background: #434343 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
