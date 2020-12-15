@@ -9,7 +9,7 @@
     $resultado = mysqli_fetch_array($consulta);
 
     if(isset($resultado['Username']) && $resultado['contrasena'] == $password){
-        echo("Chachi");
+        header("Refresh:0; url=../../index.html");
     }
     else if(isset($resultado['Username'])){
         echo "<center><h1>¡Fallo en contraseña!</h1></center>";

@@ -50,13 +50,13 @@
            <div class="form-group row">
             <label for="inputEmail" class="col-sm-2 col-form-label"><p class="define_box" name="email"></p></label>
              <div class="col-sm-9">
-              <input required type="text_box" class="form-control" name="email" placeholder="Correo electrónico*">
+              <input required type="email" class="form-control" name="email" placeholder="Correo electrónico*">
              </div>
             </div>
             <div class="form-group row">
             <label for="inputEmailBool" class="col-sm-2 col-form-label"><p class="define_box" name="emailBool"></p></label>
              <div class="col-sm-9">
-              <input required type="text_box" class="form-control" name="emailBool" placeholder="Confirmar correo electrónico*">
+              <input required type="email" class="form-control" name="emailBool" placeholder="Confirmar correo electrónico*">
              </div>
             </div>
             <div class="form-group row">
@@ -80,7 +80,7 @@
             <div class="form-group row">
                 <label for="inputTelf" class="col-sm-2 col-form-label"><p class="define_box" name="telf"></p></label>
                  <div class="col-sm-9">
-                  <input type="text_box" class="form-control" name="telf" placeholder="Teléfono">
+                  <input type="tel" pattern="([0-9]{9})"  class="form-control" name="telf" placeholder="Teléfono">
                  </div>
             </div>
           <input class="buttons" type="submit" name="Contraseña" value="Regístrate">
