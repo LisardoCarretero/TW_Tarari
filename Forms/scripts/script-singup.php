@@ -11,6 +11,7 @@
     $Usuario = $_POST['Usuario'];
     $Telefono = $_POST['telf'];
 
+    
 
     //Comprobar si confirmaciones son iguales, si no lanzar a una nueva pagina 
     $consultaSQL = "SELECT * from usuario WHERE usuario.Username = '$Usuario' AND usuario  .contrasena = '$Password'";
@@ -23,10 +24,10 @@
         VALUES ('$Usuario', '$Nombre', '$Apellidos', '$Email', '$Password', '$Telefono', '0')";
         
         $consulta_insert = $mysqli->query($Insert);
-
-        //Lanzar a index.html
+        
+        include_once("../../index.html");
     }else {
-        echo("Usuario ya registrado");
-        //Implementar como en login error       
+        echo "<center><h1>¡Usuario ya registrado!</h1></center>";
+        header("Refresh:2; url=../login.php");       
     }
 ?>
