@@ -1,6 +1,7 @@
 .icon_user{
+    width :150px; 
+    height :150px;
     margin-top: 3%;
-    text-align: center;
     opacity: 1;
 }
 .inputUser{

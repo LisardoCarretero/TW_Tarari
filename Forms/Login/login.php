@@ -9,27 +9,27 @@
 
     <body>
         <div class="container">
-        <div class="recuadro">
-            <img class="icon_user" src="TW_Tarari/Icons/icon_user.png" alt="El icono de Usuario">
-            <p>
-            <form action="scripts/script-login.php" method="post">
+            <div class="recuadro">
+                <img class="icon_user" src="../../Icons/icon_user2.png" alt="El icono de Usuario">
+                <p>
+                <form action="scripts/script-login.php" method="post">
             <h5><p class="cabezera">Iniciar sesión</p></h5>
             <div class="form-group row">
-            <label for="inputUser" class="col-sm-2 col-form-label"><p class="define_box" name="user">Usuario</p></label>
+                <label for="inputUser" class="col-sm-2 col-form-label"><p class="define_box" name="user">Usuario</p></label>
                 <div class="col-sm-9">
-                <input type="text_box" name="user"class="form-control" >
+                    <input type="text_box" name="user"class="form-control" >
                 </div>
             </div>
-            <div class="form-group row">
-            <label for="inputPassword" class="col-sm-2 col-form-label" name="password"><p class="define_box">Contraseña</p></label>
-            <div class="col-sm-9">
-                <input type="password"name="password" class="form-control" >
-            </div>
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label" name="password"><p class="define_box">Contraseña</p></label>
+                <div class="col-sm-9">
+                 <input type="password"name="password" class="form-control" >
+                </div>
             </div>
             <p class="text-right"><a href="algo de php" class="enlace">¿Has olvidado tu contraseña?</p></a>
             <input class="buttons" type="submit" name="Inicio de sesión" value="Iniciar sesión"> 
             </form>
-            <a href="C:\xampp\htdocs\VSCode\registro.php"><button class="buttons2" type="submit" name="Registro" value="Regístrate">Regístrate</button> </a>
+            <a href="TarariKeTeVi/TW_Tarari/Forms/Registro/registro.php"><button class="buttons2" type="submit" name="Registro" value="Regístrate">Regístrate</button> </a>
         </p>
         </div>
         </div>

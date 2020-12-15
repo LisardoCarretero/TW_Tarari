@@ -4,14 +4,14 @@
     <head>
         <meta charset="utf-8">
         <title>Formulario Login</title>
-        <link rel="stylesheet" href="../estilos/estilos.css">
+        <link rel="stylesheet" href="../Estilos/estilos.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     </head>
 
     <body>
         <div class="container">
         <div class="recuadro">
-            <img class="icon_user" src="../icon_user.png" 
+            <img class="icon_user" src="../../../Icons/icon_user2.png" 
             alt="El icono de Usuario">
             <p style="color:red"> Credenciales incorrectas</p>
 
