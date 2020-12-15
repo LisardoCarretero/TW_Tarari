@@ -1,4 +1,4 @@
-<!DOCTYPE html>        <!-- control shift v previsualización -->
+<!DOCTYPE html>
 <html lang="es" dir="ltr">
 
 <head>
@@ -10,8 +10,9 @@
 <body>
     <div class="container">
       <div class="recuadro">
-         <img class="icon_user" src="../../Icons/icon_user2.png" > 
+       
         <form action="../Scripts/script-singup.php" method="post">
+        <img src="../../Icons/icon_user2.png"class="icon_user">
           <h5><p class="cabezera">Regístrate</p></h5>
           <div class="form-group row">
            <label for="inputNombre" class="col-sm-2 col-form-label"><p class="define_box" name="nombre"></p></label>
