@@ -53,16 +53,16 @@ CREATE TABLE IF NOT EXISTS `Tarari`.`Producto` (
   `Stock` INT NOT NULL,
   `Imagen` VARCHAR(45) NOT NULL,
   `Flash` TINYINT NULL,
-  `Categoria_idCategoria` INT NOT NULL,
-  `Oferta_idOferta` INT NOT NULL,
+  `idCategoria` INT NOT NULL,
+  `idOferta` INT NOT NULL,
   PRIMARY KEY (`idProducto`),
   CONSTRAINT `fk_Producto_Categoria`
-    FOREIGN KEY (`Categoria_idCategoria`)
+    FOREIGN KEY (`idCategoria`)
     REFERENCES `Tarari`.`Categoria` (`idCategoria`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Producto_Oferta1`
-    FOREIGN KEY (`Oferta_idOferta`)
+    FOREIGN KEY (`idOferta`)
     REFERENCES `Tarari`.`Oferta` (`idOferta`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
@@ -84,7 +84,7 @@ CREATE TABLE IF NOT EXISTS `Tarari`.`Usuario` (
   `Telefono` VARCHAR(9) NULL,
   `Tipo` TINYINT NULL,
   PRIMARY KEY (`idUsuario`),
-  UNIQUE INDEX `Usuario_UNIQUE` (`Usuario` ASC))
+  UNIQUE INDEX `Usuario_UNIQUE` (`Usuario` ASC) )
 ENGINE = InnoDB;
 
 
@@ -97,16 +97,16 @@ CREATE TABLE IF NOT EXISTS `Tarari`.`Carrito` (
   `idCarrito` INT NOT NULL,
   `Envio` TINYINT NULL,
   `Confirmacion` TINYINT NULL,
-  `Producto_idProducto` INT NOT NULL,
-  `Usuario_idUsuario` INT NOT NULL,
+  `idProducto` INT NOT NULL,
+  `idUsuario` INT NOT NULL,
   PRIMARY KEY (`idCarrito`),
   CONSTRAINT `fk_Carrito_Producto1`
-    FOREIGN KEY (`Producto_idProducto`)
+    FOREIGN KEY (`idProducto`)
     REFERENCES `Tarari`.`Producto` (`idProducto`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Carrito_Usuario1`
-    FOREIGN KEY (`Usuario_idUsuario`)
+    FOREIGN KEY (`idUsuario`)
     REFERENCES `Tarari`.`Usuario` (`idUsuario`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
@@ -120,16 +120,16 @@ DROP TABLE IF EXISTS `Tarari`.`Productos_carrito` ;
 
 CREATE TABLE IF NOT EXISTS `Tarari`.`Productos_carrito` (
   `n_producto` INT NULL,
-  `Carrito_idCarrito` INT NOT NULL,
-  `Producto_idProducto` INT NOT NULL,
-  PRIMARY KEY (`Producto_idProducto`, `Carrito_idCarrito`),
+  `idCarrito` INT NOT NULL,
+  `idProducto` INT NOT NULL,
+  PRIMARY KEY (`idProducto`, `idCarrito`),
   CONSTRAINT `fk_Productos_carrito_Carrito1`
-    FOREIGN KEY (`Carrito_idCarrito`)
+    FOREIGN KEY (`idCarrito`)
     REFERENCES `Tarari`.`Carrito` (`idCarrito`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Productos_carrito_Producto1`
-    FOREIGN KEY (`Producto_idProducto`)
+    FOREIGN KEY (`idProducto`)
     REFERENCES `Tarari`.`Producto` (`idProducto`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
