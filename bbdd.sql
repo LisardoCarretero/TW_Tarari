@@ -97,7 +97,6 @@ CREATE TABLE IF NOT EXISTS `Tarari`.`Carrito` (
   `idCarrito` INT NOT NULL AUTO_INCREMENT,
   `Envio` TINYINT NULL,
   `Confirmacion` TINYINT NULL,
-  `idProducto` INT NOT NULL,
   `idUsuario` INT NOT NULL,
   PRIMARY KEY (`idCarrito`),
   
